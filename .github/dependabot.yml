@@ -1,0 +1,61 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "08:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: eslint
+    versions:
+    - 7.24.0
+  - dependency-name: eslint-config-prettier
+    versions:
+    - 8.2.0
+  - dependency-name: "@storybook/react"
+    versions:
+    - 6.2.8
+  - dependency-name: "@babel/core"
+    versions:
+    - 7.13.1
+    - 7.13.10
+    - 7.13.13
+    - 7.13.14
+    - 7.13.15
+    - 7.13.16
+    - 7.13.8
+  - dependency-name: ssri
+    versions:
+    - 6.0.2
+  - dependency-name: y18n
+    versions:
+    - 4.0.1
+    - 4.0.2
+    - 4.0.3
+  - dependency-name: "@testing-library/react"
+    versions:
+    - 11.2.5
+    - 11.2.6
+  - dependency-name: "@testing-library/jest-dom"
+    versions:
+    - 5.11.10
+    - 5.11.9
+  - dependency-name: "@types/jest"
+    versions:
+    - 26.0.20
+    - 26.0.21
+    - 26.0.22
+  - dependency-name: elliptic
+    versions:
+    - 6.5.4
+  - dependency-name: "@types/react"
+    versions:
+    - 17.0.2
+    - 17.0.3
+  - dependency-name: "@babel/preset-typescript"
+    versions:
+    - 7.13.0
+  - dependency-name: babel-plugin-styled-components
+    versions:
+    - 1.12.0
