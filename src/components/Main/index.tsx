@@ -2,7 +2,7 @@ import * as S from 'components/Main/styles';
 
 const Main = ({
   title = 'React Avançado',
-  description = 'TypeScript, ReactJS, NextJS e Styled Components',
+  description = 'TypeScript, ReactJS, NextJS e Styled Components'
 }) => (
   <S.Wrapper>
     <S.Logo
@@ -13,9 +13,9 @@ const Main = ({
     <S.Description>{description}</S.Description>
     <S.Illustration
       src="/img/hero-illustration.svg"
-      alt="Um desenvolvedor de frente para tela com código."
+      alt="Um desenvolvedor de frente para uma tela com código."
     />
   </S.Wrapper>
-);
+)
 
-export default Main;
+export default Main
